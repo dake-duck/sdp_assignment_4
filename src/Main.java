@@ -180,10 +180,10 @@ public class Main {
             Thread.sleep(1000);
 
             if (army1.soldiers.size() == 0) {
-                System.out.println("Army 2 Won the Battle!!!");
+                battleManager.update("Army 2 Won the Battle!!!");
                 break;
             } else if (army2.soldiers.size() == 0) {
-                System.out.println("Army 1 Won the Battle!!!");
+                battleManager.update("Army 1 Won the Battle!!!");
                 break;
             }
         }
